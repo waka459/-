@@ -1,0 +1,34 @@
+指针变量 
+数组类型
+int main ()
+{
+	float arr[1];
+	float* p = &arr;
+	printf("%p\n",p);
+	printf("%p\n",&arr);
+	return 0;
+}
+字符型
+int main()
+{
+   char ch='a';
+   char*pc=&ch;
+   printf("%p\n",&ch);
+   printf("%p\n",&pc);
+   return 0;
+  }
+  int 类型
+  int main()
+   {
+	   
+	   int a=10 ;
+	   int *p=&a;
+	   
+	   printf("%p\n",&a);
+		   printf("%p\n",&p);
+		   printf("%d\n",a);
+
+
+	   return 0;
+   }
+   
