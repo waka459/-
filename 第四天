@@ -1,0 +1,32 @@
+1结构体的创建 打印名字和价格   2用指针变量来改结构体成员的名字
+1：  #include <stdio.h>
+  struct book
+   {
+      char name[10];   
+      short price;
+    };
+    int main()
+    {
+        struct book b1=("santi",55);
+        printf("%s\n",b1->name);
+        printf(%d\n",bi->price);
+        return 0;
+    }
+    
+2: #include <string.h>
+struct book
+{
+	char name[10];
+	short price ;
+};
+
+int main()
+{
+	struct book b1={"santi",55};
+	struct book*pb=&b1;
+	strcpy(pb->name,"santi1");
+	pb ->price=10;
+	printf("%s\n",pb->name);
+	printf("%d\n",pb->price);
+	return 0;
+}
